@@ -1,6 +1,6 @@
 {
   /* The port to listen on */
-  "port" : 4551,
+  "port" : 8889,
 
   /* Allow anonymous connections */
   "anonymous" : false,
@@ -10,7 +10,7 @@
 
   /* Redis configuration */
   "redis" : {
-    "host" : "localhost",
+    "host" : "http://openofficehours.herokuapp.com",
     "port" : 6379
   }
 }
